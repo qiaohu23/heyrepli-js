@@ -1,0 +1,48 @@
+{
+  "name": "heyrepli",
+  "version": "0.1.0",
+  "description": "Official HeyRepli JavaScript/TypeScript SDK. Scrape 6 social platforms, AI rewrite, publish to Twitter/LinkedIn/Facebook via HeyRepli MCP API.",
+  "keywords": [
+    "heyrepli",
+    "social-media",
+    "mcp",
+    "twitter",
+    "linkedin",
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube",
+    "ai-rewrite",
+    "sdk"
+  ],
+  "license": "MIT",
+  "author": "HeyRepli <dev@heyrepli.com>",
+  "homepage": "https://heyrepli.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiaohu23/heyrepli-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qiaohu23/heyrepli-js/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/*.test.js",
+    "lint": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.5"
+  }
+}

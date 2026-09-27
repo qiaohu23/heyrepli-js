@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test outputs
+coverage/
+*.lcov
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Environment / secrets - never commit these
+.env
+.env.local
+.env.*.local
+*.key
+*.secret
+*.password
+*credentials*
+*secret*
+admin-password*
+deploy_logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Tests / temp
+.tmp/
+.cache/
+*.tsbuildinfo
+
+# Cloudflare / internal - never commit worker code
+cloudflare-edition/
+各类API密钥/
